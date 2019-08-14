@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Online_Ring_sizer-1_0</name>
+    <version>1.0.0.3</version>
+    <stability>stable</stability>
+    <license uri="http://findmyringsize.com/en/Info/TermsAndConditions.aspx">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>A simple on display ring sizer widget that let your customers find their ring size online</summary>
+    <description>FindMyRingSize is a unique On Display Ring Sizer. Our unique technology offers a simple, reliable and highly accurate solution for online jewelry customers to find their ring size. It's an intuitive process, which takes less than a minute.</description>
+    <notes>Stable version</notes>
+    <authors><author><name>TripleNext</name><user>triplenext</user><email>ev@triplenext.com</email></author></authors>
+    <date>2013-07-28</date>
+    <time>16:49:24</time>
+    <contents><target name="magedesign"><dir name="frontend"><dir name="default"><dir name="default"><dir name="layout"><dir name="fmrs"><dir name="module"><file name="FMRSmod.xml" hash="2d83c83b4d165ed859120956f4969206"/></dir></dir></dir><dir name="template"><dir name="fmrs"><dir name="module"><file name="button.phtml" hash="38ae32d40baa43dab7c8543d804b55ef"/><file name="js.phtml" hash="aa63e672232006d62998355990c70df0"/></dir></dir></dir></dir></dir></dir></target><target name="magecommunity"><dir name="FMRS"><dir name="Module"><dir name="etc"><file name="config.xml" hash="3eb2870e996270288bc3109573078072"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="FMRS_Module.xml" hash="1f7e6aedbddfe72703213966fb652b6e"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

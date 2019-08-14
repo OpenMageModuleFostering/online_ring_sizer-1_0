@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Online_Ring_sizer-1_0",
+    "type": "magento-module",
+    "license": "OSL-v3.0",
+    "homepage": "",
+    "description": "A simple on display ring sizer widget that let your customers find their ring size online",
+    "authors": [
+    {
+        "name": "TripleNext",
+        "email": "ev@triplenext.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

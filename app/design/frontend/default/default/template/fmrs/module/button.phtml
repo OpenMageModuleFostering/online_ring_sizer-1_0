@@ -1,0 +1,9 @@
+<?php $_product = Mage::registry('current_product') ?>
+<?php if ($_product && $_product->getId()): ?>
+<!--this is your button -->
+<!--FMRS-BUTTON:BEGIN-->
+<link   href='http://static.findmyringsize.com/shared/buttons/fmrs-buttons.css' rel='stylesheet' type='text/css' />
+<a id='ringsizer' class='fmrs-bsize-l fmrs-bdes-bl9  fmrs-button-host'  alt='Find Your Ring Size' href='http://sizer.findmyringsize.com' target='_blank' >Find Your Ring Size</a> 
+<!--FMRS-BUTTON:END-->
+
+<?php endif; ?>
